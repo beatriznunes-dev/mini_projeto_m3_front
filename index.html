@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Organizador de Tarefas</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Organizador de Tarefas</h1>
+    <p>Gerencie suas atividades diárias de forma simples e organizada.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Adicionar nova tarefa</h2>
+
+      <form>
+        <label for="titulo">Título</label>
+        <input
+          type="text"
+          id="titulo"
+          name="titulo"
+          placeholder="Ex: Estudar JavaScript"
+          required
+        >
+
+        <label for="descricao">Descrição</label>
+        <input
+          type="text"
+          id="descricao"
+          name="descricao"
+          placeholder="Ex: Revisar fetch API"
+          required
+        >
+
+        <label for="status">Status</label>
+        <select id="status" name="status" required>
+          <option value="pendente">Pendente</option>
+          <option value="concluido">Concluído</option>
+        </select>
+
+        <button type="submit">Adicionar tarefa</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Minhas tarefas</h2>
+
+      <article>
+        <h3>Título da tarefa</h3>
+        <p>Descrição da tarefa</p>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Organizador de Tarefas</p>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
