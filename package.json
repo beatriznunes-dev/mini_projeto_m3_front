@@ -1,0 +1,16 @@
+{
+  "name": "mini-projeto-m3",
+  "version": "1.0.0",
+  "description": "Aplicação de gerenciamento de tarefas",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 8000"
+  },
+  "keywords": ["tarefas", "todo"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
