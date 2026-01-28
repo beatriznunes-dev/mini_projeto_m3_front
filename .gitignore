@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Ambiente
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
